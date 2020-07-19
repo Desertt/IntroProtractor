@@ -67,6 +67,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="conf.js" />
+    <Content Include="FindCenterOfMap.js" />
+    <Content Include="HierarchicalAdressSearch.js" />
+    <Content Include="spec.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
