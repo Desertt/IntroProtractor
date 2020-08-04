@@ -16,7 +16,7 @@ describe('Protractor Demo App', function () {
     var goToDistrict = element(by.xpath("//div[contains(@class,'scroll scroll4')]//div[2]//div[3]//input[1]"));
     var selectCounty = element(by.xpath('//*[@id="mahalle"]'));
     var selectCountyCb = element(by.xpath("//select[@id='mahalle']//option[5]"));
-    var goToCounty = element(by.xpath("//div[3]//div[3]//input[1]"));
+    var goToCounty = element(by.xpath("//div[3]//div[3]//input[1]")); 
 
     var selectRoad = element(by.xpath('//*[@id="yol"]'));
     var selectRoadCb = element(by.xpath("//option[contains(text(),'5003. Sk.')]"));
