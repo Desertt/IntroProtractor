@@ -1,4 +1,6 @@
-﻿describe('Protractor Demo App', function () {
+﻿//Ornek
+
+describe('Protractor Demo App', function () {
     //#region Defines
     var isim = element(by.xpath('//*[@id="mat-input-0"]'));
     var sifre = element(by.xpath('//*[@id="mat-input-1"]'));
@@ -34,8 +36,8 @@
     });
 
     it('Belplas Otomatik Login', function () {
-        isim.sendKeys('mustafa.dagtekin');
-        sifre.sendKeys('123456');
+        isim.sendKeys('a');
+        sifre.sendKeys('1');
         loginbutton.click();
         detailSearchbutton.click();
         browser.sleep(sleepTimeOutLong);
