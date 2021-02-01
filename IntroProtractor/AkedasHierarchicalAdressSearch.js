@@ -23,7 +23,7 @@
 
     var selectBuildingEntrance = element(by.xpath('//*[@id="binagiris"]'));
     var selectBuildingEntranceCb = element(by.xpath("//select[@id='binagiris']//option[4]"));
-    var goToBuildingEntrance = element(by.xpath('//*[@id="Submit1"]'));
+    var goToBuildingEntrance = element(by.xpath("//body/div[@id='sb-site']/div[@id='modals']/div[@id='HiyerarsikSorgulama']/div[1]/div[1]/div[2]/div[1]/div[5]/input[1]"));
 
 
     var sleepTimeOut = 10000;
@@ -56,7 +56,7 @@
     });
 
     it('Hiyerarşik Adres Sorgulama', function () {
-        userName.sendKeys('edabis.test');
+        userName.sendKeys('t');
         browser.sleep(sleepTimeOutLittle);
         password.sendKeys('t');
         browser.sleep(sleepTimeOutLittle);

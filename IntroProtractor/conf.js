@@ -1,6 +1,6 @@
 ﻿exports.config = {
   framework: 'jasmine',
-    specs: ['MeskiHierarchialAdressSearch.js'],
+    specs: ['AkedasHierarchicalAdressSearch.js'],
   multiCapabilities: [{
     browserName: 'chrome'
 	
