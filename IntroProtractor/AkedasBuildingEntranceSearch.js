@@ -9,7 +9,7 @@ describe('Protractor Demo App', function () {
     var selectAdressSearch = element(by.xpath('//*[@id="W0101"]'));
     var selectBuildingEntranceSearch = element(by.xpath('//*[@id="W010107"]/span'));
     var selectIdSort = element(by.xpath('//*[@id="aboneThead"]/tr[2]/td[1]'));
-    //var goToProvince = element(by.xpath('//*[@id="Submit1"]'));
+    var selectBaglantiNesnesiSort = element(by.xpath('//*[@id="aboneThead"]/tr[2]/td[2]'));
     //var selectDistrict = element(by.xpath('//*[@id="ilce"]'));
     //var selectDistrictCb = element(by.xpath("//option[contains(text(),'UBAT')]"));
     //var goToDistrict = element(by.xpath("//div[contains(@class,'scroll scroll4')]//div[2]//div[3]//input[1]"));
@@ -56,7 +56,7 @@ describe('Protractor Demo App', function () {
     });
 
     it('Hiyerarþik Adres Sorgulama', function () {
-        userName.sendKeys('t.t');
+        userName.sendKeys('t.');
         browser.sleep(sleepTimeOutLittle);
         password.sendKeys('t');
         browser.sleep(sleepTimeOutLittle);
@@ -70,8 +70,8 @@ describe('Protractor Demo App', function () {
         browser.sleep(sleepTimeOutLittle);
         selectIdSort.click();
         browser.sleep(sleepTimeOutLittle);
-        //selectProvince.click();
-        //browser.sleep(sleepTimeOutLittle);
+        selectBaglantiNesnesiSort.click();
+        browser.sleep(sleepTimeOutLittle);
         //selectDistrict.click();
         //browser.sleep(sleepTimeOutLittle);
         //selectDistrictCb.click();
